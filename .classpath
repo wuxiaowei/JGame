@@ -2,23 +2,23 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/slick-util.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lzma.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl.jar">
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/slick-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lzma.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/natives-mac"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl-debug.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_util.jar">
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl-debug.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_util.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/natives-mac"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_util_applet.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_test.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/jinput.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/asm-debug-all.jar"/>
-	<classpathentry kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/AppleJavaExtensions.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_util_applet.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/lwjgl_test.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/jinput.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/asm-debug-all.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/xiaoweiwu/Documents/Workspace/JGame/lib/jars/AppleJavaExtensions.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
