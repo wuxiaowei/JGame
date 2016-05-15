@@ -8,7 +8,7 @@ import org.lwjgl.util.vector.Vector3f;
 public class Light {
     private Vector3f position;
 
-    public Light(Vector3f colour, Vector3f position) {
+    public Light(Vector3f position, Vector3f colour) {
         this.colour = colour;
         this.position = position;
     }
