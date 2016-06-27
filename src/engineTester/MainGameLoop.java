@@ -20,8 +20,7 @@ public class MainGameLoop {
 		DisplayManager.createDisplay();
 		
 		Loader loader=new Loader();
-		StaticShader shader=new StaticShader();
-		Renderer renderer=new Renderer(shader);
+
 
 //		float[] vertices={
 //				-0.5f,0.5f,0f,
@@ -54,19 +53,17 @@ public class MainGameLoop {
 
 		Camera camera=new Camera();
 
+		MasterRenderer renderer=new MasterRenderer();
 		while(!Display.isCloseRequested()){
 //			entity.increasePosition(0,0,-0.1f);
 			entity.increaseRotation(0,1,0);
 			camera.move();
-			renderer.prepare();
-			shader.start();
-			shader.loadLight(light);
-			shader.loadViewMatrix(camera);
-			renderer.render(entity,shader);
-			shader.stop();
+			renderer.processEntity(entity);
+			renderer.render(light,camera);
+
 			DisplayManager.updateDisplay();
 		}
-		shader.cleanUp();
+		renderer.cleanUp();
 		loader.cleanUp();
 		DisplayManager.closeDisplay();
 	}
